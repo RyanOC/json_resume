@@ -1,0 +1,513 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Ryan Connolly</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Ryan Connolly
+					</h1>
+					<h2>
+						Web Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">ryanoc333 at gmail</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://theincloud.com">http://theincloud.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>A professional web developer with over 15 years of professional experience in full stack development using Agile methodologies. A passionate learner and effective collaborator that is highly motivated to constantly search for ways to improve myself and the systems I design and develop while building strong relationships with colleagues.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://twitter.com/ryanoc333">ryanoc333</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ashley Furniture | Tampa, FL</span>
+					<span class="date">
+						January 2017 — Present
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.ashleyfurniture.com">http://www.ashleyfurniture.com</a>
+				</div>
+				<div class="position">
+					Web Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed a Security model using OAuth and JWT that is used within an internal financial application using ASP.NET Core Web Api and SQL Server</li>
+					<li class="bullet">Created Azure Active Directory App Registrations to integrate Authentication and Group authorizations</li>
+					<li class="bullet">Developed a frontend UI and multiple components using Angular 5 to consume all API endpoints that I also develop</li>
+					<li class="bullet">Developed an application to aggregate product pricing for 3rd party reporting using ASP.NET Standard</li>
+					<li class="bullet">Helped improve and support the existing Ashley Payment system that is used for all credit card processing</li>
+					<li class="bullet">Responsible for creating detailed documentation and cross training team members</li>
+					<li class="bullet">Work closely with team lead to review all pull requests within our team and provide guidence for improvement if necessary</li>
+					<li class="bullet">Created DevOps processes including CI/CD pipelines in VSTS and Azure for multiple environments for all solutions I develop</li>
+					<li class="bullet">Keeping code coverage high using xUnit, practicing Test Driven Development, and Autofac to help invert all dependencies</li>
+					<li class="bullet">Strict adherence to SOLID Design Principles, Domain Driven Design, Clean Code, REST, GitFlow, and Agile for all solutions I develop</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Mercury New Media | Tampa, FL</span>
+					<span class="date">
+						Sept 2016 — Dec 2016
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.mercurynewmedia.com">http://www.mercurynewmedia.com</a>
+				</div>
+				<div class="position">
+					Web Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed Telerik Sitefinity MVC Sites including Medical, Educational, Financial and B2B Clients</li>
+					<li class="bullet">Developed a location finder Sitefinity widget using GoogleMaps with many different search parameters using Sitefinity’s API with nested Content types that used Web Api endpoints for asynchronous features</li>
+					<li class="bullet">Developed a Sitefinity back end widget for promoting client leads to Azure AD group members using Azure Graph</li>
+					<li class="bullet">Developed a utility to import WordPress blog data into a Sitefinity blog with all categories and tags</li>
+					<li class="bullet">Added requested features into a Franklin Street’s property appraisal application using Entity Framework, MVC and Knockout JS</li>
+					<li class="bullet">All development consisted of ASP.NET, C# and JavaScript using Agile methodologies within SCRUM, code repositories within Visual Studio Online and GIT and work tracked with a proprietary labor tracking utility build internally</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>352 | Tampa, FL</span>
+					<span class="date">
+						Apr 2016 — Aug 2016
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://352inc.com">http://352inc.com</a>
+				</div>
+				<div class="position">
+					Web Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed GiveChing.com using NodeJS, ExpressJS, MongoDB and React that utilizes Amazon, Rekuten and Coupon Junction’s Affiliate network APIs that provide subscribers with daily product deals using MailChimp email campaigns. Primary focus was developing the API layer with WebStorm and Postman while securing it with JWT authentication</li>
+					<li class="bullet">Developed a dashboard component with React and HighCharts that uses campaign data from MailChimp’s API</li>
+					<li class="bullet">Developed AWS Lambda functions with NodeJS exposed by API Gateway and custom authorizers to support a custom Slack App</li>
+					<li class="bullet">Added features to an LMS’s discussion board developed in Angular 1.3 that included image uploading to all threads and posts using Amazon S3 and adding custom event and page load tracking using Google Tag Manager for Google Analytics</li>
+					<li class="bullet">Used JIRA to track all sprint tasks and GitHub for all code repositories</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>American Association for Physician Leadership | Tampa, FL</span>
+					<span class="date">
+						Feb 2014 — Apr 2016
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://physicianleaders.org">http://physicianleaders.org</a>
+				</div>
+				<div class="position">
+					Web Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed corporate website using Sitefinity CMS, ASP.NET, C#, MVC, BootStra,p and JavaScript</li>
+					<li class="bullet">Aggregated Telerik Sitefinity 7 dynamic content, Microsoft CRM 2011 entities (XRM), and Microsoft SQL Server 2012 data (Entity Framework) into a business logic layer that is accessed by  Microsoft MVC widgets and a Web API controller layer</li>
+					<li class="bullet">Developed an API project using Microsoft’s Web API with JWT authentication to expose data for web and native mobile apps</li>
+					<li class="bullet">Developed an article library using Angular 1.3, Bootstrap 3, JQuery, and Web API for consumption by subscribed members</li>
+					<li class="bullet">Developed a POS solution that greatly improved the checkout process within the company’s quarterly convention’s book store</li>
+					<li class="bullet">Developed a custom Sitefinity widget discussion board within the organizations proprietary LMS that allowed faculty members to interact with their students within their curriculum exercises using all JavaScript consuming a Web API service layer</li>
+					<li class="bullet">Developed a solution to cache complex price lists with Lucene.net Search to greatly improve product page performance</li>
+					<li class="bullet">Developed Sitefinity MVC widgets for lead generation, information request and contact style forms</li>
+					<li class="bullet">Developed shopping cart web services that interface MS CRM and Sitefinity to utilize PayPal’s PayFlow API using Web API</li>
+					<li class="bullet">Implemented Elmah error logging into all web solutions and created a custom web interface for querying the data</li>
+					<li class="bullet">Implemented test cases using the NUnit framework into all Web API controller methods</li>
+					<li class="bullet">Achieved ScrumMaster certification and held a split role of Web Developer and ScrumMaster for 3 months</li>
+					<li class="bullet">Worked closely with product owners, business analysts, and stakeholders to efficiently complete project milestones and regular product ready increments using Microsoft TFS and Agile methodologies</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>SOE Software | Tampa, FL</span>
+					<span class="date">
+						Sep 2009 — Feb 2014
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.soesoftware.com">http://www.soesoftware.com</a>
+				</div>
+				<div class="position">
+					Web Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Enhanced and maintained web applications designed for Supervisor of Elections offices</li>
+					<li class="bullet">Primary focus was developing a reporting engine and CMS written in ASP.NET, C#, and MySQL for election results</li>
+					<li class="bullet">Developed a candidate finance reporting SPA using a repository pattern and Web API which is consumed by a custom client side JavaScript MVC implementation that leveraged a revealing module pattern</li>
+					<li class="bullet">Developed multi-layered Google Maps with KJSON generated from KML for use on all election results pages</li>
+					<li class="bullet">Developed a web asset management module that is used by many other systems within the organization</li>
+					<li class="bullet">Converted current authentication system to utilize SHA256/salt encryption with reCAPTCHA</li>
+					<li class="bullet">Worked closely with BA, PM, and QA team to resolve bugs tracked in Redmine while using SCRUM</li>
+					<li class="bullet">Shared responsibility of all product build developments through strict internal process to all environments (Integ, QA, Staging, UAT, and Production) for compiled binaries, web forms, and database scripts</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>RDK Truck Sales | Tampa, FL</span>
+					<span class="date">
+						Jun 2006 — Sept 2009
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://rdk.com">http://rdk.com</a>
+				</div>
+				<div class="position">
+					Web Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed a custom CRM and reporting web application that is used exclusively by RDK’s call center which handles heavy call volume dealing with commercial vehicle sales for international clients using ASP.NET, C#, JavaScript and SQL Server</li>
+					<li class="bullet">Developed a dashboard to report call center data for management analysis using windows services and Dundas Charts</li>
+					<li class="bullet">Developed a desktop application for CRM integration using ActiveX to assist sales team with incoming calls</li>
+					<li class="bullet">Developed a windows service to email configurable PDF financial and productivity reports to management and the CEO</li>
+					<li class="bullet">Responsible for all business process analysis, prototyping from requirements, conceptual designs, development and testing</li>
+					<li class="bullet">Managed relationships with 20 business stakeholders to formalize requirements and coordinate User Acceptance testing</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Geographic Solutions | Palm Harbor, FL</span>
+					<span class="date">
+						Jan 2006 — Jun 2006
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://geographicsolutions.com">http://geographicsolutions.com</a>
+				</div>
+				<div class="position">
+					Web Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Enhance and supported user intake wizard pages for government funds that assist the unemployed which are used by government agencies around the country</li>
+					<li class="bullet">Analyzed current classic ASP system to help advise and rewrite it into ASP.NET</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>PowerChord | Tierra Verde, FL</span>
+					<span class="date">
+						Nov 2003 — Dec 2005
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://powerchordsystem.com">http://powerchordsystem.com</a>
+				</div>
+				<div class="position">
+					Web Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed a web applications that allow manufacturing clients to display their product catalog and support a network of dealers, distributors or retailers generated websites using ASP.NET, VB.NET, and SQL Server</li>
+					<li class="bullet">Modified the current system architecture into a real estate model allowing expansion into new business avenues</li>
+					<li class="bullet">Provided support to clients managing and resolving trouble tickets for all of the companies systems</li>
+					<li class="bullet">Worked on many public facing website design elements, layouts, and images</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Sterling Star | Pinellas Park, FL</span>
+					<span class="date">
+						Feb 2003 — Nov 2003
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://sterlingstar.com">http://sterlingstar.com</a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Enhanced and maintained the company’s medical billing software suite using VB6</li>
+					<li class="bullet">Designed, developed, and maintained Crystal Reports</li>
+					<li class="bullet">Analyzed current data to develop a conversion utility used by clients with non compatible databases</li>
+					<li class="bullet">Conceptualizing, modeling, developing, testing, and debugging new modules</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Tampa Technical Institute</span>
+					<span class="date">
+						January 2001 — July 2002
+					</span>
+				</h4>
+				<div class="area">
+					Internet Information Systems
+				</div>
+				<div class="studyType">
+					Associate of Science
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+
+
+	
+
+	</div>
+	
+	</body>
+</html>

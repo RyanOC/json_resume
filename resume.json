@@ -2,11 +2,10 @@
     "basics": {
         "name": "Ryan Connolly",
         "label": "Web Developer",
-        "picture": "https://en.gravatar.com/ryanoc333",
+        "picture": "https://secure.gravatar.com/avatar/bbdfde6800c863c29704c358ab942e3b",
         "email": "ryanoc333 at gmail",
-        "phone": "(813) xxx-xxxx",
         "website": "http://theincloud.com",
-        "summary": "A professional web developer with over 15 years of professional experience in full stack development.",
+        "summary": "A professional web developer with over 15 years of professional experience in full stack development using Agile methodologies. A passionate learner and effective collaborator that is highly motivated to constantly search for ways to improve myself and the systems I design and develop while building strong relationships with colleagues.",
         "location": {
             "city": "Brandon",
             "countryCode": "US",
@@ -25,15 +24,16 @@
                 "startDate": "January 2017",
                 "endDate": "Present",
                 "highlights": [
-                    "Developed an ASP.NET Core Web Api Security model using OAuth and JWT with role/resource configurations that is used in an internal financial application",
-                    "Created an Azure Active Directory App Registration to integrate for the Authentication and Group authorizations",
-                    "Helped design a frontend UI using Angular 5 and actively develop in it to consume all endpoints I create",
-                    "Developed an ASP.NET Standard application to aggregate product pricing for 3rd party reporting",
-                    "Helped improve and support the existing Ashley Payment Gateway system that is used for all ecommerce payments",
-                    "Responsible for creating detailed documentation and CI/CD pipelines in VSTS to multiple environments with GitFlow for all applications I work on",
-                    "Keeping code coverage high using xUnit, practicing TDD, and using Autofac to invert all dependencies",
-                    "Strict adherence to Domain Driven Design, SOLID Design Principles, and Clean Coding practices",
-                    "Mentoring developers by providing guidance of best development practices and work closely with many other developers to continue improvement in the growing number of applications at Ashley"
+                    "Developed a Security model using OAuth and JWT that is used within an internal financial application using ASP.NET Core Web Api and SQL Server",
+                    "Created Azure Active Directory App Registrations to integrate Authentication and Group authorizations",
+                    "Developed a frontend UI and multiple components using Angular 5 to consume all API endpoints that I also develop",
+                    "Developed an application to aggregate product pricing for 3rd party reporting using ASP.NET Standard",
+                    "Helped improve and support the existing Ashley Payment system that is used for all credit card processing",
+                    "Responsible for creating detailed documentation and cross training team members",
+                    "Work closely with team lead to review all pull requests within our team and provide guidence for improvement if necessary",
+                    "Created DevOps processes including CI/CD pipelines in VSTS and Azure for multiple environments for all solutions I develop",
+                    "Keeping code coverage high using xUnit, practicing Test Driven Development, and Autofac to help invert all dependencies",
+                    "Strict adherence to SOLID Design Principles, Domain Driven Design, Clean Code, REST, GitFlow, and Agile for all solutions I develop"
                 ]
             },
             {
@@ -43,10 +43,10 @@
                 "startDate": "Sept 2016",
                 "endDate": "Dec 2016",
                 "highlights": [
-                    "Worked with a small team on Telerik Sitefinity MVC Sites including Medical, Educational, Financial and B2B Clients",
-                    "Created a location finder Sitefinity widget using GoogleMaps with many different search parameters using Sitefinity’s API with nested Content types that used Web Api endpoints for asynchronous features",
-                    "Created a Sitefinity back end widget for promoting Mercury client leads to Azure AD group members using Azure Graph",
-                    "Created a utility to import WordPress blog data into a Sitefinity blog with all categories and tags",
+                    "Developed Telerik Sitefinity MVC Sites including Medical, Educational, Financial and B2B Clients",
+                    "Developed a location finder Sitefinity widget using GoogleMaps with many different search parameters using Sitefinity’s API with nested Content types that used Web Api endpoints for asynchronous features",
+                    "Developed a Sitefinity back end widget for promoting client leads to Azure AD group members using Azure Graph",
+                    "Developed a utility to import WordPress blog data into a Sitefinity blog with all categories and tags",
                     "Added requested features into a Franklin Street’s property appraisal application using Entity Framework, MVC and Knockout JS",
                     "All development consisted of ASP.NET, C# and JavaScript using Agile methodologies within SCRUM, code repositories within Visual Studio Online and GIT and work tracked with a proprietary labor tracking utility build internally"
                 ]
@@ -58,9 +58,9 @@
                 "startDate": "Apr 2016",
                 "endDate": "Aug 2016",
                 "highlights": [
-                    "Worked with a small team to develop GiveChing.com using NodeJS, ExpressJS, MongoDB and React that utilizes Amazon, Rekuten and Coupon Junction’s Affiliate network APIs that provide subscribers with daily product deals using MailChimp email campaigns. Primary focus was developing the API layer with WebStorm and Postman while securing it with JWT authentication",
-                    "Create a dashboard component with React and HighCharts that uses campaign data from MailChimp’s API",
-                    "Created AWS Lambda functions with NodeJS exposed by API Gateway and custom authorizers to support a custom Slack App",
+                    "Developed GiveChing.com using NodeJS, ExpressJS, MongoDB and React that utilizes Amazon, Rekuten and Coupon Junction’s Affiliate network APIs that provide subscribers with daily product deals using MailChimp email campaigns. Primary focus was developing the API layer with WebStorm and Postman while securing it with JWT authentication",
+                    "Developed a dashboard component with React and HighCharts that uses campaign data from MailChimp’s API",
+                    "Developed AWS Lambda functions with NodeJS exposed by API Gateway and custom authorizers to support a custom Slack App",
                     "Added features to an LMS’s discussion board developed in Angular 1.3 that included image uploading to all threads and posts using Amazon S3 and adding custom event and page load tracking using Google Tag Manager for Google Analytics",
                     "Used JIRA to track all sprint tasks and GitHub for all code repositories"
                 ]
@@ -72,10 +72,10 @@
                 "startDate": "Feb 2014",
                 "endDate": "Apr 2016",
                 "highlights": [
-                    "Worked with a small team to rebuild the corporate website using Sitefinity CMS, ASP.NET, C#, MVC, BootStrap and JavaScript",
-                    "Aggregated Telerik Sitefinity 7 dynamic content, Microsoft CRM 2011 entities (XRM) and Microsoft SQL Server 2012 data (Entity Framework) into a business logic layer that is accessed by  Microsoft MVC widgets and a Web API controller layer",
+                    "Developed corporate website using Sitefinity CMS, ASP.NET, C#, MVC, BootStra,p and JavaScript",
+                    "Aggregated Telerik Sitefinity 7 dynamic content, Microsoft CRM 2011 entities (XRM), and Microsoft SQL Server 2012 data (Entity Framework) into a business logic layer that is accessed by  Microsoft MVC widgets and a Web API controller layer",
                     "Developed an API project using Microsoft’s Web API with JWT authentication to expose data for web and native mobile apps",
-                    "Developed an article library using Angular 1.3, Bootstrap 3, JQuery and Web API for consumption by subscribed members",
+                    "Developed an article library using Angular 1.3, Bootstrap 3, JQuery, and Web API for consumption by subscribed members",
                     "Developed a POS solution that greatly improved the checkout process within the company’s quarterly convention’s book store",
                     "Developed a custom Sitefinity widget discussion board within the organizations proprietary LMS that allowed faculty members to interact with their students within their curriculum exercises using all JavaScript consuming a Web API service layer",
                     "Developed a solution to cache complex price lists with Lucene.net Search to greatly improve product page performance",
@@ -84,7 +84,7 @@
                     "Implemented Elmah error logging into all web solutions and created a custom web interface for querying the data",
                     "Implemented test cases using the NUnit framework into all Web API controller methods",
                     "Achieved ScrumMaster certification and held a split role of Web Developer and ScrumMaster for 3 months",
-                    "Worked closely with product owners, business analysts and stakeholders to efficiently complete project milestones and regular product ready increments using Microsoft TFS and Agile methodologies"
+                    "Worked closely with product owners, business analysts, and stakeholders to efficiently complete project milestones and regular product ready increments using Microsoft TFS and Agile methodologies"
                 ]
             },
             {
@@ -94,13 +94,13 @@
                 "startDate": "Sep 2009",
                 "endDate": "Feb 2014",
                 "highlights": [
-                    "Worked with a small team to enhanced and maintain web applications designed for Supervisor of Elections offices",
+                    "Enhanced and maintained web applications designed for Supervisor of Elections offices",
                     "Primary focus was developing a reporting engine and CMS written in ASP.NET, C#, and MySQL for election results",
                     "Developed a candidate finance reporting SPA using a repository pattern and Web API which is consumed by a custom client side JavaScript MVC implementation that leveraged a revealing module pattern",
                     "Developed multi-layered Google Maps with KJSON generated from KML for use on all election results pages",
                     "Developed a web asset management module that is used by many other systems within the organization",
                     "Converted current authentication system to utilize SHA256/salt encryption with reCAPTCHA",
-                    "Worked closely with BA, PM and QA team to resolve bugs tracked in Redmine while using SCRUM",
+                    "Worked closely with BA, PM, and QA team to resolve bugs tracked in Redmine while using SCRUM",
                     "Shared responsibility of all product build developments through strict internal process to all environments (Integ, QA, Staging, UAT, and Production) for compiled binaries, web forms, and database scripts"
                 ]
             },
@@ -126,7 +126,7 @@
                 "startDate": "Jan 2006",
                 "endDate": "Jun 2006",
                 "highlights": [
-                    "Worked on a team of 30 developers to enhance and support user intake wizard pages for government funds that assist the unemployed which are used by government agencies around the country",
+                    "Enhance and supported user intake wizard pages for government funds that assist the unemployed which are used by government agencies around the country",
                     "Analyzed current classic ASP system to help advise and rewrite it into ASP.NET"
                 ]
             },
@@ -137,10 +137,10 @@
                 "startDate": "Nov 2003",
                 "endDate": "Dec 2005",
                 "highlights": [
-                    "Worked on a team of 4 developers to develop a web application that allows manufacturing clients to display their product catalog and support a network of dealers, distributors or retailers generated websites using ASP.NET, VB.NET and SQL Server",
+                    "Developed a web applications that allow manufacturing clients to display their product catalog and support a network of dealers, distributors or retailers generated websites using ASP.NET, VB.NET, and SQL Server",
                     "Modified the current system architecture into a real estate model allowing expansion into new business avenues",
                     "Provided support to clients managing and resolving trouble tickets for all of the companies systems",
-                    "Worked on many public facing website design elements, layouts and images"
+                    "Worked on many public facing website design elements, layouts, and images"
                 ]
             },
             {
@@ -150,10 +150,10 @@
                 "startDate": "Feb 2003",
                 "endDate": "Nov 2003",
                 "highlights": [
-                    "Worked with a team of 3 developers to enhance and maintain the company’s medical billing software suite using VB6",
-                    "Designed, developed and maintained Crystal Reports",
+                    "Enhanced and maintained the company’s medical billing software suite using VB6",
+                    "Designed, developed, and maintained Crystal Reports",
                     "Analyzed current data to develop a conversion utility used by clients with non compatible databases",
-                    "Conceptualizing, modeling, developing, testing and debugging new modules"
+                    "Conceptualizing, modeling, developing, testing, and debugging new modules"
                 ]
             }
 
@@ -168,11 +168,11 @@
     "certifications": [{
         "title": "Certified ScrumMaster 2014",
         "date": "2014",
-        "awarder": "Company"
+        "awarder": "Scrum Alliance"
     },
     {
         "title": "MCPD & MCTS",
         "date": "2008",
-        "awarder": "TechSkills, Tampa Florida"
+        "awarder": "TechSkills"
     }]
 }
